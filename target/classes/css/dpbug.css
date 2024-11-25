@@ -1,0 +1,17 @@
+/* styles.css */
+.progress-indicator .spinner-pane {
+    -fx-background-color: transparent; /* 去除背景颜色 */
+}
+
+.progress-indicator .spinner-track {
+    -fx-background-color: transparent; /* 去除轨道背景颜色 */
+}
+
+.progress-indicator .spinner-box {
+    -fx-padding: 0; /* 去除内部边距 */
+    -fx-background-color: transparent; /* 去除背景颜色 */
+}
+
+.progress-indicator .arc {
+    -fx-stroke: transparent; /* 隐藏进度指示器弧线 */
+}

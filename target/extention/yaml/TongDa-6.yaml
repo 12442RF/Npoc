@@ -1,0 +1,30 @@
+id: TongDa-6
+
+info:
+  name: 通达OA v11.6 print.php 任意文件删除&RCE 
+  author: attempt
+  severity: high
+  description: |
+    通过任意文件漏洞删除上传点包含的身份验证文件，从而造成未授权访问实现任意文件上传
+  reference:
+    - https://github.com/Threekiii/Vulnerability-Wiki/blob/master/docs-base/docs/oa/%E9%80%9A%E8%BE%BEOA-v11.6-print.php-%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%88%A0%E9%99%A4%26RCE.md
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="TDXK-通达OA"
+  tags: TongDa,OA,任意文件删除,RCE
+request:
+  - raw:
+      - |
+        GET /module/appbuilder/assets/print.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Accept-Encoding: gzip, deflate
+        Accept-Language: zh-CN,zh;q=0.9
+        Connection: close
+
+    matchers:
+      - type: status
+        part: status
+        status:
+          - 200

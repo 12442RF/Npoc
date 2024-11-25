@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dna">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/java/com/attempt/npoc/controllers/dna.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

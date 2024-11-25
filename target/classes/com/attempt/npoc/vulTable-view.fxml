@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextArea?>
+
+
+<AnchorPane prefHeight="550.0" prefWidth="900.0" stylesheets="@../../../css/ElementFX.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.attempt.npoc.controllers.VulTableController">
+   <children>
+       <TextArea fx:id="request" prefWidth="900.0" prefHeight="275.0" wrapText="true" />
+       <TextArea fx:id="response" prefWidth="900.0" prefHeight="275.0" layoutY="280.0" wrapText="true"  />
+   </children>
+</AnchorPane>

